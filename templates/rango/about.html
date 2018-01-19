@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+  
+{% load staticfiles %}
+
+<html>
+
+        <head>
+                <title>About</title>
+        </head>
+
+        <body>
+                <h1>... ELEPHANTS</h1>
+                <div>
+                        This tutorial has been put together by Sonja <br />
+                        <strong>{{ boldmessage }}</strong><br>
+                </div>
+                <div>
+                        <a href="/rango/">Main</a><br>
+                        <img src="{{MEDIA_URL}}elephant.jpg"
+                             alt="Elephant"/>
+                </div>
+        </body>
+</html>
